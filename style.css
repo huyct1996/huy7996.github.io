@@ -69,6 +69,8 @@ body
 }
 .huy 
 {
+	margin-top: 0;
+	margin-bottom: 0;
 	color: #fff;
 	font-size: 15vw;
 	position: absolute;
@@ -76,6 +78,8 @@ body
 }
 .linh
 {
+	margin-top: 0;
+	margin-bottom: 0;
 	color: #fff;
 	font-size: 15vw;
 	position: absolute;
@@ -83,8 +87,25 @@ body
 }
 .happy
 {
+	margin-top: 0;
+	margin-bottom: 0;
 	position: absolute;
 	font-size: 4vw;
 	color: whitesmoke;
 	bottom: 30px;
+}
+@media (max-width: 1129px) 
+{
+	.huy 
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+		left: 141px;
+	}
+	.linh
+	{
+		margin-top: 0;
+		margin-bottom: 0;
+		left: 712px;
+	}
 }
